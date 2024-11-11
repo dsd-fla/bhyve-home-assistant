@@ -1,0 +1,11 @@
+{
+  "name": "B-hyve Integration",
+  "version": "1.0",
+  "slug": "bhyve",
+  "description": "Integrate Orbit B-hyve with Home Assistant",
+  "startup": "before",
+  "arch": ["amd64", "armv7", "armhf", "aarch64"],
+  "hassio_api": true,
+  "homeassistant_api": true,
+  "host_network": true
+}
